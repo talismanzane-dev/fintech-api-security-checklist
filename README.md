@@ -25,7 +25,7 @@ This project is maintained as a companion to [llm-safety-eval](https://github.co
 - [Checks](#checks)
   - [Broken Object Level Authorization (BOLA)](CHECKS/bola.md)
   - [Insecure Direct Object References (IDOR)](CHECKS/idor.md)
-  - Race conditions — *in progress*
+  - [Race conditions](CHECKS/race-conditions.md)
   - JWT validation — *in progress*
   - Authentication and session controls — *in progress*
 - [Templates](#templates)
@@ -42,7 +42,7 @@ This project is maintained as a companion to [llm-safety-eval](https://github.co
 | --- | --- | --- |
 | [Broken Object Level Authorization (BOLA)](CHECKS/bola.md) | API1 | Available |
 | [Insecure Direct Object References (IDOR)](CHECKS/idor.md) | API1, API3 | Available |
-| Race conditions | API6 | In progress |
+| [Race conditions](CHECKS/race-conditions.md) | API6 | Available |
 | JWT validation | API2 | In progress |
 | Authentication and session controls | API2, API4, API5 | In progress |
 
@@ -68,7 +68,8 @@ fintech-api-security-checklist/
 ├── .gitignore
 ├── CHECKS/
 │   ├── bola.md
-│   └── idor.md
+│   ├── idor.md
+│   └── race-conditions.md
 └── TEMPLATES/
     └── pentest-report-template.md
 ```
