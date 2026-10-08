@@ -175,7 +175,7 @@ Joint accounts, business users with roles, power-of-attorney and third-party pro
 
 ### 6. Make identifiers non-enumerable — as defense in depth only
 
-Random identifiers (UUIDv4, or opaque tokens) slow enumeration but **do not fix BOLA**. Identifiers leak through logs, URLs, referrers, shared statements and support tickets. The IDOR check (in progress) will cover non-enumerable identifier design.
+Random identifiers (UUIDv4, or opaque tokens) slow enumeration but **do not fix BOLA**. Identifiers leak through logs, URLs, referrers, shared statements and support tickets. See [`idor.md`](idor.md) for indirect and non-sequential identifier design.
 
 ### 7. Prevent regressions
 
@@ -202,4 +202,4 @@ Random identifiers (UUIDv4, or opaque tokens) slow enumeration but **do not fix 
 - [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 - [OWASP Web Security Testing Guide — Testing for Insecure Direct Object References](https://owasp.org/www-project-web-security-testing-guide/)
 - [CWE-639: Authorization Bypass Through User-Controlled Key](https://cwe.mitre.org/data/definitions/639.html)
-- Related checks (in progress): Insecure Direct Object References, Authentication and session controls
+- Related checks: [Insecure Direct Object References](idor.md); Authentication and session controls (in progress)
