@@ -46,12 +46,12 @@ This project is maintained as a companion to [llm-safety-eval](https://github.co
 | [JWT validation](CHECKS/jwt-validation.md) | API2 | Available |
 | [Authentication and session controls](CHECKS/authentication.md) | API2, API4, API5 | Available |
 
-Every check file uses the same four sections, followed by a checklist and references:
+Every check covers the same four core parts — what the flaw is, a realistic example, how to detect it, and how to fix it. Section headings and extras vary slightly between files:
 
-1. **What the flaw is**
-2. **Realistic example**
-3. **How to detect it**
-4. **How to fix it**
+| Check | Sections |
+| --- | --- |
+| BOLA | Summary table (OWASP category, CWE, typical severity) → What the flaw is → Realistic example → How to detect it → How to fix it → Checklist → References |
+| IDOR, Race conditions, JWT validation, Authentication and session controls | What it is → How it happens → A realistic example → How to detect it → How to fix it |
 
 ## Templates
 
