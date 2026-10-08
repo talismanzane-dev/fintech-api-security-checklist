@@ -27,7 +27,7 @@ This project is maintained as a companion to [llm-safety-eval](https://github.co
   - [Insecure Direct Object References (IDOR)](CHECKS/idor.md)
   - [Race conditions](CHECKS/race-conditions.md)
   - [JWT validation](CHECKS/jwt-validation.md)
-  - Authentication and session controls — *in progress*
+  - [Authentication and session controls](CHECKS/authentication.md)
 - [Templates](#templates)
   - [Penetration test report template](TEMPLATES/pentest-report-template.md)
 - [Repository structure](#repository-structure)
@@ -44,7 +44,7 @@ This project is maintained as a companion to [llm-safety-eval](https://github.co
 | [Insecure Direct Object References (IDOR)](CHECKS/idor.md) | API1, API3 | Available |
 | [Race conditions](CHECKS/race-conditions.md) | API6 | Available |
 | [JWT validation](CHECKS/jwt-validation.md) | API2 | Available |
-| Authentication and session controls | API2, API4, API5 | In progress |
+| [Authentication and session controls](CHECKS/authentication.md) | API2, API4, API5 | Available |
 
 Every check file uses the same four sections, followed by a checklist and references:
 
@@ -67,6 +67,7 @@ fintech-api-security-checklist/
 ├── LICENSE
 ├── .gitignore
 ├── CHECKS/
+│   ├── authentication.md
 │   ├── bola.md
 │   ├── idor.md
 │   ├── jwt-validation.md
