@@ -88,12 +88,12 @@ git clone https://github.com/talismanzane-dev/fintech-api-security-checklist.git
 
 Suggested ways to use it:
 
-- **Design and code review.** Before an endpoint ships, walk through the **Checklist** section at the end of each relevant check and confirm every item.
+- **Design and code review.** Before an endpoint ships, walk through the **Checklist** section at the end of each relevant check, where present (currently only [BOLA](CHECKS/bola.md)), and confirm every item.
 - **Sprint review.** Pick the checks that match the endpoints changed in the sprint and record which items were verified.
 - **Authorized assessments.** Use the checks to plan coverage and the [report template](TEMPLATES/pentest-report-template.md) to document findings, impact and remediation.
 - **Regression prevention.** Turn checklist items into automated tests in your own CI so fixed issues stay fixed.
 
-Each checklist item is written as a Markdown task (`- [ ]`), so you can copy a section into an issue or pull request and tick items off.
+Where a check has a checklist section, each item is written as a Markdown task (`- [ ]`), so you can copy it into an issue or pull request and tick items off.
 
 ## Responsible use
 

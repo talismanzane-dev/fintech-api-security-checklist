@@ -202,4 +202,4 @@ Random identifiers (UUIDv4, or opaque tokens) slow enumeration but **do not fix 
 - [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
 - [OWASP Web Security Testing Guide — Testing for Insecure Direct Object References](https://owasp.org/www-project-web-security-testing-guide/)
 - [CWE-639: Authorization Bypass Through User-Controlled Key](https://cwe.mitre.org/data/definitions/639.html)
-- Related checks: [Insecure Direct Object References](idor.md); Authentication and session controls (in progress)
+- Related checks: [Insecure Direct Object References](idor.md); [Authentication and session controls](authentication.md)
